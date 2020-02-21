@@ -9,11 +9,11 @@ def count_th(word):
     # TBC
     if not word:
         return 0
-    elif word[:2] == 'th':
+    elif word.lower()[:2] == 'th':
         return 1 + count_th(word[1:])
     else:
         return count_th(word[1:])
 
 
-print(count_th('thethethe'))
+print(count_th('THEHEHHETH'))
 print(count_th('charthrusethghjjt'))
