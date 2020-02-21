@@ -16,7 +16,7 @@ linear time O(n) because n reduces each time the recursive call is made
 
 ## Exercise II
 
-# deploying an approach similar to binary search, seeing as number of floors we have to go through is sorted
+# deploying an approach similar to binary search, seeing as number of floors we have to go through is in oder(sorted)
 
 # n = number of floors/stories, so highest_floor = length(n)
 
@@ -34,6 +34,6 @@ linear time O(n) because n reduces each time the recursive call is made
 
 # else if it does not break ? we half the number of floors from f(mid_floor) to the highest_floor and set that to
 
-# our new f and keep halfing till and checking a floor less than f till we get to the threshold.
+# our new f and keep halfing f and checking a floor less than f till we get to the threshold.
 
 # runtime complexity of O(log n) worst case and best case O(1)
